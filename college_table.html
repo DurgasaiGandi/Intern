@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Degree College</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="header">
+        <img src="images/img-1.jpg" alt="Aditya Degree College Logo">
+        <hr>
+    </div>
+    <h3 class="marquee">ADITYA DEGREE COLLEGE</h3>
+
+
+    <table id="timetable">
+        <caption><b><u>TIME TABLE</u></b></caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9:00-9:45</th>
+                <th>9:45-10:30</th>
+                <th>10:30-10:45</th>
+                <th>10:45-11:25</th>
+                <th>11:25-12:10</th>
+                <th>12:10-1:00</th>
+                <th>1:00-2:30</th>
+                <th>2:30-2:45</th>
+                <th>2:45-3:30</th>
+                <th>3:30-4:10</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form id="feedbackForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
